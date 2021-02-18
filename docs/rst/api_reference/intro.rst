@@ -3,6 +3,12 @@
 API reference
 =============
 
+
+.. toctree::
+   :maxdepth: 2
+
+   api_new
+
 .. note::
 
     Eradiate's API reference documentation is generated automatically using

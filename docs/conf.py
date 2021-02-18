@@ -131,6 +131,7 @@ intersphinx_mapping = {
     "pint": ("https://pint.readthedocs.io/en/latest/", None),
     "attr": ("https://www.attrs.org/en/stable/", None),
     "pandas": ("https://pandas.pydata.org/docs/", None),
+    "pinttrs": ("https://pinttrs.readthedocs.io/en/latest/", None),
 }
 
 # Activate todo notes
