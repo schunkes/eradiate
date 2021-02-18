@@ -46,7 +46,7 @@ The Eradiate team acknowledges all Mitsuba 2 contributors for their exceptional
 work.
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :hidden:
 
    rst/getting_started/intro

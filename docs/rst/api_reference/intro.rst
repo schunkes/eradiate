@@ -3,11 +3,16 @@
 API reference
 =============
 
+..
+  New API reference
 
 .. toctree::
    :maxdepth: 2
 
-   api_new
+   utility
+
+..
+  Old API reference
 
 .. note::
 

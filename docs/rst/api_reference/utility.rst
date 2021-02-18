@@ -1,18 +1,8 @@
-New API documentation
-=====================
-
-..
-  The following toctree contains documentation generated manually because
-  autosummary can't do the job correctly.
-
-.. toctree::
-   :hidden:
-
-   imported_vars
+Utility
+=======
 
 Mode control
-------------
-
+~~~~~~~~~~~~
 .. currentmodule:: eradiate
 
 .. autosummary::
@@ -23,9 +13,16 @@ Mode control
    set_mode
 
 Units
------
-
+~~~~~
 .. currentmodule:: eradiate
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+
+   imported_vars/unit_registry
+   imported_vars/unit_context_config
+   imported_vars/unit_context_kernel
 
 .. list-table::
    :widths: 1 3
@@ -38,7 +35,8 @@ Units
      - Unit context used when building kernel dictionaries.
 
 Miscellaneous
--------------
+~~~~~~~~~~~~~
+.. currentmodule:: eradiate
 
 .. autosummary::
    :toctree: generated/

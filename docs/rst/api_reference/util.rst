@@ -24,5 +24,4 @@ Utility [eradiate.util]
    misc
    plot
    presolver
-   units
    xarray
