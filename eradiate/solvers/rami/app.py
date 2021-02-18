@@ -6,6 +6,7 @@ from pathlib import Path
 import attr
 import matplotlib.pyplot as plt
 import numpy as np
+import pinttr
 import xarray as xr
 from tinydb import Query, TinyDB
 from tinydb.storages import MemoryStorage
@@ -309,7 +310,7 @@ class RamiSolverApp:
     def from_dict(cls, d):
         """Instantiate from a dictionary."""
         # Collect mode configuration
-        solver_config = deepcopy(d)
+        solver_config = pinttr.interpret_units(d, ureg=ureg)
 
         try:
             mode_config = solver_config.pop("mode")

@@ -742,7 +742,7 @@ class HomogeneousDiscreteCanopy(Canopy):
         """
 
         # Pre-process dict: apply units to unit-enabled fields
-        d_copy = pinttr.interpret_units(d)
+        d_copy = pinttr.interpret_units(d, ureg=ureg)
 
         if "file_path" in d_copy:
             return cls.from_rami(**d_copy)
